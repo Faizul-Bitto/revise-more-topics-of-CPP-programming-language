@@ -1,0 +1,9 @@
+Without setprecision:
+23.4568
+3.14159
+100.123
+
+With fixed and setprecision(7):
+23.4567600
+3.1415927
+100.1234568
