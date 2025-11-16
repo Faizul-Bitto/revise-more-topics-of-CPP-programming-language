@@ -5,22 +5,11 @@ using namespace std;
 
 int main()
 {
-    double d1, d2, d3;
+    double d = 23.45676;
 
-    // Reading input values
-    cin >> d1 >> d2 >> d3;
+    cout << d << endl; // it will print = 23.4568 -> only four after decimal point. Rest will not be printed. If we want to print the rest, we need setprecision(), as there is no format specifier in C++
 
-    // Without setprecision - default precision (usually 4-6 digits)
-    cout << "Without setprecision:" << endl;
-    cout << d1 << endl;
-    cout << d2 << endl;
-    cout << d3 << endl;
-
-    // With fixed and setprecision - controls decimal places
-    cout << "\nWith fixed and setprecision(7):" << endl;
-    cout << fixed << setprecision(7) << d1 << endl;
-    cout << fixed << setprecision(7) << d2 << endl;
-    cout << fixed << setprecision(7) << d3 << endl;
+    cout << fixed << setprecision(7) << d << endl;
 
     return 0;
 }
