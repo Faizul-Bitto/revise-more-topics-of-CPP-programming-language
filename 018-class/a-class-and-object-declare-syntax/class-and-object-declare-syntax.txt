@@ -1,0 +1,29 @@
+class ClassName
+{
+    accessModifier :
+
+        dataType variableName;
+}
+
+
+
+Example :
+
+class Student
+{
+    Public:
+        char name[100];
+        int roll;
+        char section;
+        double gpa;
+};
+
+
+
+
+
+Now to declare object :
+
+main(){
+    
+}
