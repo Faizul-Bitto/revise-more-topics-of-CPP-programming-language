@@ -11,7 +11,7 @@ Example :
 
 class Student
 {
-    Public:
+    public:
         char name[100];
         int roll;
         char section;
@@ -25,5 +25,14 @@ class Student
 Now to declare object :
 
 main(){
+
+    just like we declare a variable : 
+
+        data-type     variable-name;
+        int           A;
+
+        same:
+        class-name as data-type           object-name as variable-name
+        Student                           Sakib
     
 }
