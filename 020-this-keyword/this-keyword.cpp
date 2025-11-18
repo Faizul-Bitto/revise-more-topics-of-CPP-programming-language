@@ -23,7 +23,7 @@ public:
         this->gpa = gpa;
     }
 
-    // this 'this->' keyword is actually a pointer, which is like this -> (*this) -> dereferencing
+    // this 'this->' keyword is actually a pointer, which is like this -> (*this.) -> dereferencing
 };
 
 int main()
