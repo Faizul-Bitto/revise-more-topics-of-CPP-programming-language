@@ -5,7 +5,7 @@ int main()
 {
     string S1 = "Hello World!";
 
-    S1.resize(5); // Hello World -> Hello
+    S1.resize(5); // Hello World! -> Hello
 
     cout << S1;
 
