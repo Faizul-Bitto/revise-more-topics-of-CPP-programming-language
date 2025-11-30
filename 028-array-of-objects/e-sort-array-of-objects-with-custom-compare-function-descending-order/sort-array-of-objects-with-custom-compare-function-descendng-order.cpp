@@ -11,14 +11,16 @@ public:
 
 bool cmp(Student left, Student right)
 {
-    if (left.marks > right.marks)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+    // if (left.marks > right.marks)
+    // {
+    //     return true;
+    // }
+    // else
+    // {
+    //     return false;
+    // }
+
+    return left.marks > right.marks;
 }
 
 int main()
